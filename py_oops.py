@@ -85,34 +85,108 @@
 
 
 # Hybrid inheritance
-class Whtsapp_v1:
-    def contact(self):
-        print("contact added on the whatsapp chatbox")
-class Whtsapp_v2(Whtsapp_v1):
-    def camara(self):
-        print("camara added on the whatsapp chatbox")
-class Whtsapp_v3(Whtsapp_v1):
-    def document(self):
-        print("Document added on the whatsapp chatbox")
-class Whtsapp_v4(Whtsapp_v2,Whtsapp_v3):
-    def ai_images(self):
-        print("AI images added on the whatsapp chatbox")
+# class Whtsapp_v1:
+#     def contact(self):
+#         print("contact added on the whatsapp chatbox")
+# class Whtsapp_v2(Whtsapp_v1):
+#     def camara(self):
+#         print("camara added on the whatsapp chatbox")
+# class Whtsapp_v3(Whtsapp_v1):
+#     def document(self):
+#         print("Document added on the whatsapp chatbox")
+# class Whtsapp_v4(Whtsapp_v2,Whtsapp_v3):
+#     def ai_images(self):
+#         print("AI images added on the whatsapp chatbox")
 
-Obj1=Whtsapp_v2()
-Obj1.contact()
-Obj1.camara()
-#==============
-Obj2=Whtsapp_v3()
-Obj2.contact()
-Obj2.document()
-#============
-Obj3=Whtsapp_v4()
-Obj3.contact()
-Obj3.camara()
-Obj3.document()
-Obj3.ai_images()
+# Obj1=Whtsapp_v2()
+# Obj1.contact()
+# Obj1.camara()
+# #==============
+# Obj2=Whtsapp_v3()
+# Obj2.contact()
+# Obj2.document()
+# #============
+# Obj3=Whtsapp_v4()
+# Obj3.contact()
+# Obj3.camara()
+# Obj3.document()
+# Obj3.ai_images()
 
+# Polymorphism
+ 
+# a = "Whatsapp"
+# print(len(a))
 
+# tuple = ("apple", "banana", "cherry")
+# print(len(tuple))
 
+# car = {
+#   "name": "BMW",
+#   "model": "Mustang",
+#   "year": 1940
+# }
+# print(len(car))
 
+# class Tamilnadu():
+#     def whatsapp(self):
+#         print("tamilnadu people using whatsapp")
+# class Andhra:
+#     def whatsapp(self):
+#         print("andhra people using whatsapp")
+# class kerala:
+#     def whatsapp(self):
+#         print("kerala people using whatsapp")
+
+# tamil=Tamilnadu()
+# andh=Andhra()
+# kera=kerala()
+# for x in (tamil,andh,kera):
+#     x.whatsapp()
         
+# class Whatsapp:
+#   def __init__(self,co_found,launchedyear):
+#     self.found = co_found
+#     self.lyear = launchedyear
+# class kerala(Whatsapp):
+#     def kerala(self):
+#         print("kerala people using whatsapp")
+
+# class andhra(Whatsapp):
+#   def andhra(self):
+#     print("andhra people using whatsapp!")
+    
+# kk = kerala("Jan Koum and Brian Acton", 2009)       
+# aa = andhra("Jan Koum and Brian Acton", 2009)
+# kk.kerala()
+# aa.andhra()
+
+#Method overriding&shadowing
+# class Whatsapp_v1:
+#     def chat(self):
+#         print("cotact,camara")
+# class Whatsapp_v2(Whatsapp_v1):
+#     def chat(self):
+#         print("location,document")
+#         super().chat
+# w2=Whatsapp_v2()
+# w2.chat()
+
+#Abstraction
+# from abc import ABC,abstractmethod
+# class Bank(ABC):
+#     @abstractmethod
+#     def account_no(self):
+#         pass           #This is an abstract method, no implementation here.
+#     @abstractmethod
+#     def ifsc_no(self):
+#         pass           #This is an abstract method, no implementation here.
+# class Bank_Book(Bank):
+#     def account_no(self):
+#         print("account number") # Abstract method, to be implemented by subclasses
+#     def ifsc_no(self):
+#         print("ifsc number")
+# B=Bank_Book()
+# B.account_no()
+# B.ifsc_no()
+
+       
