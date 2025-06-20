@@ -254,7 +254,7 @@ class Whatsapp:
 		self._age = x 
 
 objset = Whatsapp() 
-objset.set_age(55)  # setting the age using setter 
+objset.set_age(15)  # setting the age using setter 
 print(objset.get_age())  # retrieving age using getter 
 print(objset._age)
         
