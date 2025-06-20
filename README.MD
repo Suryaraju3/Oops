@@ -98,11 +98,30 @@ __**5.Hybrid inheritance**__
 * During method overriding the subclass implementation will hides the super class implementation is known as method showdowing.
 
 * To get the supper class implementation we need to use a class called __super__.
-->__super().function_name()__
+=>__super().function_name()__
 
-### Abstraction
+### 3.Abstraction
 
 * Declearing all the required functionality in the abstract class and providing implimentation in the subclass is known as abstraction.
 * Can't create object for the abstract class
 * In abstract class we can create both concreate methods and abstract method.
 * To create a abstract class and abstract method we need to import ABC and abstract method from a libery called abc.
+
+### 4.Encapsulation
+
+* Declearing all the public variables into private and restricting in the access from one class to another class to avoid accidental modification.
+
+* There are three types
+#### 1.public access specifier
+* Any variable which is declear without using underscore we call it as a public access specifier.
+* Public access specifier can we access inside a class as well as outside the class.
+
+#### 2.Producted access specifier
+
+* Any variable which is declear by pre fixing "_" is known as product access specifier.
+* We can access outside the class but accourding to the convention we should not access outside the class.
+
+#### 3.Private access specifier
+
+* Any variable which is declear by prefixing "__" is known as private access specifier.
+* Private access specifier can't be access outside the class
