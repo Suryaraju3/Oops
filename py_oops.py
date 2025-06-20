@@ -65,22 +65,54 @@
 
 #.multiple inheritance
 
+# class Whtsapp_v1:
+#     def contact(self):
+#         print("contact added on the whatsapp chatbox")
+# class Whtsapp_v2():
+#     def camara(self):
+#         print("camara added on the whatsapp chatbox")
+# class Whtsapp_v3():
+#     def document(self):
+#         print("Document added on the whatsapp chatbox")
+# class Whtsapp_v4(Whtsapp_v1,Whtsapp_v2,Whtsapp_v3):
+#     def ai_images(self):
+#         print("AI images added on the whatsapp chatbox")
+# objl=Whtsapp_v4()
+# objl.contact()
+# objl.camara()
+# objl.document()
+# objl.ai_images()
+
+
+# Hybrid inheritance
 class Whtsapp_v1:
     def contact(self):
         print("contact added on the whatsapp chatbox")
-class Whtsapp_v2():
+class Whtsapp_v2(Whtsapp_v1):
     def camara(self):
         print("camara added on the whatsapp chatbox")
-class Whtsapp_v3():
+class Whtsapp_v3(Whtsapp_v1):
     def document(self):
         print("Document added on the whatsapp chatbox")
-class Whtsapp_v4(Whtsapp_v1,Whtsapp_v2,Whtsapp_v3):
+class Whtsapp_v4(Whtsapp_v2,Whtsapp_v3):
     def ai_images(self):
         print("AI images added on the whatsapp chatbox")
-objl=Whtsapp_v4()
-objl.contact()
-objl.camara()
-objl.document()
-objl.ai_images()
+
+Obj1=Whtsapp_v2()
+Obj1.contact()
+Obj1.camara()
+#==============
+Obj2=Whtsapp_v3()
+Obj2.contact()
+Obj2.document()
+#============
+Obj3=Whtsapp_v4()
+Obj3.contact()
+Obj3.camara()
+Obj3.document()
+Obj3.ai_images()
+
+
+
 
         
