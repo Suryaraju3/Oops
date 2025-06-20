@@ -12,6 +12,7 @@ class Whats_app:
     def __init__(abc,co_found,launchedyear):
         abc.co_found=co_found
         abc.lyear=launchedyear
+        
 wtsapp2=Whats_app("Jan Koum and Brian Acton", 2009)
 print(wtsapp2.co_found)
 print(wtsapp2.lyear)
@@ -20,6 +21,7 @@ print(wtsapp2.lyear)
 class Whtsapp_v1:
     def contact(self):
         print("contact added on the whatsapp chatbox")
+
 class Whtsapp_v2(Whtsapp_v1):
     def camara(self):
         print("camara added on the whatsapp chatbox")
@@ -32,9 +34,11 @@ ob.camara()
 class Whtsapp_v1:
     def contact(self):
         print("contact added on the whatsapp chatbox")
+
 class Whtsapp_v2(Whtsapp_v1):
     def camara(self):
         print("camara added on the whatsapp chatbox")
+
 class Whtsapp_v3(Whtsapp_v2):
     def document(self):
         print("Document added on the whatsapp chatbox")
@@ -48,9 +52,11 @@ obj2.document()
 class Whtsapp_v1:
     def contact(self):
         print("contact added on the whatsapp chatbox")
+
 class Whtsapp_v2(Whtsapp_v1):
     def camara(self):
         print("camara added on the whatsapp chatbox")
+
 class Whtsapp_v3(Whtsapp_v1):
     def document(self):
         print("Document added on the whatsapp chatbox")
@@ -68,12 +74,15 @@ obj1.camara()
 class Whtsapp_v1:
     def contact(self):
         print("contact added on the whatsapp chatbox")
+
 class Whtsapp_v2():
     def camara(self):
         print("camara added on the whatsapp chatbox")
+
 class Whtsapp_v3():
     def document(self):
         print("Document added on the whatsapp chatbox")
+
 class Whtsapp_v4(Whtsapp_v1,Whtsapp_v2,Whtsapp_v3):
     def ai_images(self):
         print("AI images added on the whatsapp chatbox")
@@ -88,12 +97,15 @@ objl.ai_images()
 class Whtsapp_v1:
     def contact(self):
         print("contact added on the whatsapp chatbox")
+
 class Whtsapp_v2(Whtsapp_v1):
     def camara(self):
         print("camara added on the whatsapp chatbox")
+
 class Whtsapp_v3(Whtsapp_v1):
     def document(self):
         print("Document added on the whatsapp chatbox")
+
 class Whtsapp_v4(Whtsapp_v2,Whtsapp_v3):
     def ai_images(self):
         print("AI images added on the whatsapp chatbox")
@@ -133,9 +145,11 @@ print(len(car))
 class Tamilnadu():
     def whatsapp(self):
         print("tamilnadu people using whatsapp")
+
 class Andhra:
     def whatsapp(self):
         print("andhra people using whatsapp")
+
 class kerala:
     def whatsapp(self):
         print("kerala people using whatsapp")
@@ -152,9 +166,11 @@ class Whatsapp:
   def __init__(self,co_found,launchedyear):
     self.found = co_found
     self.lyear = launchedyear
+
 class kerala(Whatsapp):
     def kerala(self):
         print("kerala people using whatsapp")
+
 
 class andhra(Whatsapp):
   def andhra(self):
@@ -169,6 +185,7 @@ aa.andhra()
 class Whatsapp_v1:
     def chat(self):
         print("cotact,camara")
+
 class Whatsapp_v2(Whatsapp_v1):
     def chat(self):
         print("location,document")
@@ -224,4 +241,20 @@ class Whatsapp:
 wap=Whatsapp("surya",2009)
 print(wap.__found)
 print(wap.__lyear)
+
+# # getter and setter
+class Whatsapp: 
+	def __init__(self, age=0): 
+		self._mno = age 
+  
+	def get_age(self):  # getter method 
+		return self._age 
+ 
+	def set_age(self, x): # setter method
+		self._age = x 
+
+objset = Whatsapp() 
+objset.set_age(55)  # setting the age using setter 
+print(objset.get_age())  # retrieving age using getter 
+print(objset._age)
         
