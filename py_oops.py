@@ -29,16 +29,35 @@
 
 
 #2.multilevel inheritance
+# class Whtsapp_v1:
+#     def contact(self):
+#         print("contact added on the whatsapp chatbox")
+# class Whtsapp_v2(Whtsapp_v1):
+#     def camara(self):
+#         print("camara added on the whatsapp chatbox")
+# class Whtsapp_v3(Whtsapp_v2):
+#     def document(self):
+#         print("Document added on the whatsapp chatbox")
+# obj2=Whtsapp_v3() 
+# obj2.contact()
+# obj2.camara()
+# obj2.document()
+
+
+# Hierarchical inheritance
 class Whtsapp_v1:
     def contact(self):
         print("contact added on the whatsapp chatbox")
 class Whtsapp_v2(Whtsapp_v1):
     def camara(self):
         print("camara added on the whatsapp chatbox")
-class Whtsapp_v3(Whtsapp_v2):
+class Whtsapp_v3(Whtsapp_v1):
     def document(self):
         print("Document added on the whatsapp chatbox")
-obj2=Whtsapp_v3()
+obj2=Whtsapp_v3() 
 obj2.contact()
-obj2.camara()
 obj2.document()
+#=================
+obj1=Whtsapp_v2()
+obj1.contact()
+obj1.camara()
