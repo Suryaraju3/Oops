@@ -28,7 +28,7 @@
 
 #### 1.Inheritance
  ->State and behaviour from parents class to child class is known as inheritance. It's five types
-* __**1.Single level inheritance**__
+ __**1.Single level inheritance**__
 
 * parent class to child class.
 * In WhatsApp_v1, contacts were added in the chatting box.
@@ -36,7 +36,7 @@
 * The new version(v2) adds on WhatsApp not exiting _v1; _v2 inherited _v1 and is now an inheritance.
 * When we create object _v2, we can use _v2 and _v1 also.
 
-* __**2.multilevel inheritance**__
+ __**2.multilevel inheritance**__
 
 * A sub class inheriting the properties from already draivde class is known as multi  level inheritance.
 * In WhatsApp_v1, contacts were added in the chatting box.
@@ -44,7 +44,7 @@
  The new version(v3) adds on WhatsApp not exiting _v1,_v2; _v3 inherited _v1,_v2 and is now an inheritance.
 * When we create object _v3, we can use _v3,_v2 and _v1 also.
 
-* __**3.Hierarchical inheritance**__
+ __**3.Hierarchical inheritance**__
 
 ->Multiple sub classes inherites the properties from only one super class.
 * In WhatsApp_v1, contacts were added in the chatting box.
@@ -55,3 +55,11 @@
 * In WhatsApp_v3, document were added in the chatting box.
 * The new version(v3) adds on WhatsApp not exiting _v1; _v3 inherited _v1 .
 * When we create object _v3, we can use _v1 also.
+
+__**4.multiple inheritance**__
+->A sub class inherties the properties from more than one super class.
+* In WhatsApp_v1, contacts were added in the chatting box.
+* In WhatsApp_v2, contacts were added in the chatting box.
+* In WhatsApp_v3, contacts were added in the chatting box.
+* The new version(v4) adds on WhatsApp not exiting _v1,_v2,_v3; _v4 inherited _v1,_v2,_v3.
+* When we create object _v4, we can use _v1,_v2 and _v3.
