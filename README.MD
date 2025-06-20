@@ -8,8 +8,6 @@
 #### Ex:1
 
 * WhatsApp is a class name.
-
 * inside one variable.
-
 * wtsapp is an object created for class name.
     
