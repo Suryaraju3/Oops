@@ -1,12 +1,12 @@
 
 
-# Ex:1
+
 class WhatsApp:
     app="Whatsapp is a chatting app"
 wtsapp=WhatsApp()
 print(wtsapp.app)
 
-# Ex:2
+
 # self ==>abc
 class Whats_app:
     def __init__(abc,co_found,launchedyear):
@@ -113,7 +113,7 @@ Obj3.document()
 Obj3.ai_images()
 
 # 2.Polymorphism
- 
+#Inbuild function
 a = "Whatsapp"
 print(len(a))
 
@@ -129,7 +129,7 @@ print(len(car))
 
 
 
-
+# Class Polymorphism
 class Tamilnadu():
     def whatsapp(self):
         print("tamilnadu people using whatsapp")
@@ -147,7 +147,7 @@ for x in (tamil,andh,kera):
     x.whatsapp()
         
         
-        
+# Inheritance    
 class Whatsapp:
   def __init__(self,co_found,launchedyear):
     self.found = co_found
@@ -195,6 +195,7 @@ B.account_no()
 B.ifsc_no()
 
 # 4.Encapsulation
+# public access specifier
 class Whatsapp:
     def __init__(self,co_found,launchedyear):
         self.found=co_found
@@ -204,6 +205,7 @@ w=Whatsapp("Jan Koum and Brian Acton", 2009)
 print(w.found)
 print(w.lyear)
 
+# Producted access specifier
 class Whatsapp:
     def __init__(self,co_found,launchedyear):
         self._found=co_found
@@ -212,7 +214,8 @@ class Whatsapp:
 wa=Whatsapp("Jan Koum and Brian Acton", 2009)
 print(wa._found)
 print(wa._lyear)
-       
+    
+# Private access specifier   
 class Whatsapp:
     def __init__(self,co_found,launchedyear):
         self.__found=co_found
