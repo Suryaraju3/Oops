@@ -73,37 +73,38 @@
 * When we create object _v4, we can use _v2 and _v3.
 
 **### Polymorphism**
+
 -> An object storing different behaviours and stages of its life cycle is known as polymorphism.
 
 -> Python function that can be used on different objects is the len() function.
-#### Inbuild function
+#### Inbuild function:
 * strings len() returns the number of characters.
 * tuples len() returns the number of items in the tuple.
-#### Class Polymorphism
+#### Class Polymorphism:
 * We often used in Class methods, where we can have multiple classes with the same method name.
-#### Inheritance 
+#### Inheritance:
 * Child classes inherits the properties from the parent class.
 * we can execute the same method for all classes.
 
-### Method overriding
+#### Method overriding
 
 * Declearing the function with the same name in the sub class but with different implementation is know as method overriding. Whenever we want to add sum new features fer the exixting once we need to use method overriding.
 
-### Method shadowing 
+#### Method shadowing 
 
 * During method overriding the subclass implementation will hides the super class implementation is known as method showdowing.
 
 * To get the supper class implementation we need to use a class called __super__.
 =>__super().function_name()__
 
-**### 3.Abstraction**
+### 3.Abstraction
 
 * Declearing all the required functionality in the abstract class and providing implimentation in the subclass is known as abstraction.
 * Can't create object for the abstract class
 * In abstract class we can create both concreate methods and abstract method.
 * To create a abstract class and abstract method we need to import ABC and abstract method from a libery called abc.
 
-**### 4.Encapsulation**
+### 4.Encapsulation
 
 * Declearing all the public variables into private and restricting in the access from one class to another class to avoid accidental modification.
 
@@ -120,4 +121,4 @@
 #### 3.Private access specifier
 
 * Any variable which is declear by prefixing "__" is known as private access specifier.
-* Private access specifier can't be access outside the class
+* Private access specifier can't be access outside the class.
