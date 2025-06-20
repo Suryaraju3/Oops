@@ -14,11 +14,11 @@
 ### Ex:2
 
 ###  __init__()
-* It's a inbuilt method which used to inizialize the members of an objedt.
+* It's a inbuilt method which used to inizialize the members of an object.
 * for __init__() method self first argument which has to be pass.
 * for __init__() method we can pass any number of parameter based on the requirement.
 *  __init__() function is called automatically every time the class is being used to create a new object.
-* __self__ To access instance variables. self is not a keyword, it'ntion. we cs just a name by convean use another name, but not recommended.
+* __self__ To access instance variables. self is not a keyword; it's just a name by convention. You can use another name, but not recommended.
 
 
     
