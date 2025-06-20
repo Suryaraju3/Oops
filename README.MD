@@ -28,21 +28,24 @@
 
 #### 1.Inheritance
  ->State and behaviour from parents class to child class is known as inheritance. It's five types
-* 1.Single level inheritance
+* __**1.Single level inheritance**__
+
 * parent class to child class.
 * In WhatsApp_v1, contacts were added in the chatting box.
 * In WhatsApp_v2, camara were added in the chatting box.
 * The new version(v2) adds on WhatsApp not exiting _v1; _v2 inherited _v1 and is now an inheritance.
 * When we create object _v2, we can use _v2 and _v1 also.
 
-* 2.multilevel inheritance
+* __**2.multilevel inheritance**__
+
 * A sub class inheriting the properties from already draivde class is known as multi  level inheritance.
 * In WhatsApp_v1, contacts were added in the chatting box.
 * In WhatsApp_v2, camara were added in the chatting box.
  The new version(v3) adds on WhatsApp not exiting _v1,_v2; _v3 inherited _v1,_v2 and is now an inheritance.
 * When we create object _v3, we can use _v3,_v2 and _v1 also.
 
-* 3.Hierarchical inheritance
+* __**3.Hierarchical inheritance**__
+
 ->Multiple sub classes inherites the properties from only one super class.
 * In WhatsApp_v1, contacts were added in the chatting box.
 * In WhatsApp_v2, camara were added in the chatting box.
