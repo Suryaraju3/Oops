@@ -72,17 +72,17 @@
 * The new version(v4) adds on WhatsApp not exiting _v2,_v3; _v4 inherited _v2,_v3.
 * When we create object _v4, we can use _v2 and _v3.
 
-**### Polymorphism**
+### Polymorphism
 
 -> An object storing different behaviours and stages of its life cycle is known as polymorphism.
 
 -> Python function that can be used on different objects is the len() function.
-#### Inbuild function:
+#### 1.Inbuild function:
 * strings len() returns the number of characters.
 * tuples len() returns the number of items in the tuple.
-#### Class Polymorphism:
+#### 2.Class polymorphism:
 * We often used in Class methods, where we can have multiple classes with the same method name.
-#### Inheritance:
+#### 3.Inheritance:
 * Child classes inherits the properties from the parent class.
 * we can execute the same method for all classes.
 
