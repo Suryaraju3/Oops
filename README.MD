@@ -122,3 +122,9 @@
 
 * Any variable which is declear by prefixing "__" is known as private access specifier.
 * Private access specifier can't be access outside the class.
+
+#### Getter and Setter
+* A Whatsapp class is defined with an _age attribute.
+* The get_age() method is the getter, which retrieves the value of _age.
+* The set_age() method is the setter, which assigns a value to _age.
+* The setter method is used to set the age and the getter method is used to retrieve it.
