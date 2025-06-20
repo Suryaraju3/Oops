@@ -45,19 +45,42 @@
 
 
 # Hierarchical inheritance
+# class Whtsapp_v1:
+#     def contact(self):
+#         print("contact added on the whatsapp chatbox")
+# class Whtsapp_v2(Whtsapp_v1):
+#     def camara(self):
+#         print("camara added on the whatsapp chatbox")
+# class Whtsapp_v3(Whtsapp_v1):
+#     def document(self):
+#         print("Document added on the whatsapp chatbox")
+# obj2=Whtsapp_v3() 
+# obj2.contact()
+# obj2.document()
+# #=================
+# obj1=Whtsapp_v2()
+# obj1.contact()
+# obj1.camara()
+
+
+#.multiple inheritance
+
 class Whtsapp_v1:
     def contact(self):
         print("contact added on the whatsapp chatbox")
-class Whtsapp_v2(Whtsapp_v1):
+class Whtsapp_v2():
     def camara(self):
         print("camara added on the whatsapp chatbox")
-class Whtsapp_v3(Whtsapp_v1):
+class Whtsapp_v3():
     def document(self):
         print("Document added on the whatsapp chatbox")
-obj2=Whtsapp_v3() 
-obj2.contact()
-obj2.document()
-#=================
-obj1=Whtsapp_v2()
-obj1.contact()
-obj1.camara()
+class Whtsapp_v4(Whtsapp_v1,Whtsapp_v2,Whtsapp_v3):
+    def ai_images(self):
+        print("AI images added on the whatsapp chatbox")
+objl=Whtsapp_v4()
+objl.contact()
+objl.camara()
+objl.document()
+objl.ai_images()
+
+        
